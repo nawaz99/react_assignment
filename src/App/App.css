@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 630;
+}
+
+:root {
+	--border-color: 1px solid rgb(238, 235, 235);
+}
+
+.items-bg {
+	background-color: rgb(255, 255, 255);
+}
+
+.color {
+	background-color: rgb(63, 81, 181);
+}
+
+.red {
+	color: rgb(245, 90, 87);
+}
+
+.blue {
+	color: rgb(60, 79, 170);
+}
+
+.green {
+	color: rgb(23, 175, 23);
+}
+
+.red-bg-white {
+	background-color: rgb(233, 56, 52);
+	color: white;
+}
+
+.green-bg-white {
+	background-color: green;
+	color: white;
+}
+
+.red-bg-white,
+.green-bg-white,
+.blue-bg-white,
+.white-bg-blue  {
+	border-radius: 50%;
+	padding: 0.2rem;
+}
+
+
+
+.blue-bg-white {
+	background-color: rgb(60, 79, 170);
+	color: white;
+}
+
+
+.white-bg-blue {
+	background-color:white;
+	color:  rgb(60, 79, 170);
+}
+
+.orange {
+	color: rgb(247, 138, 0);
+}
+
+
+.border-color{
+	border:var(--border-color);
+}
+
+.font-small {
+	font-size: 0.7rem;
+}
+
+.font-medium {
+	font-size: 1rem;
+}
+.items-color {
+	color: grey;
+}
+
+.border-light-grey {
+	border: var(--border-color);
+}
+
+.border-bottom {
+	border-bottom: var(--border-color);
+}
+
+
+
+.cursor{
+	cursor: pointer;
+}
+
+/* Media queries */

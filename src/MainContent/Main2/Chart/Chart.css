@@ -1,0 +1,85 @@
+.chart {
+	width: calc(100% - 76.5%);
+	height: 100%;
+}
+
+.users {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+	width: 100%;
+	height: 8%;
+	font-size: 70%;
+}
+
+.users span .refresh {
+	cursor: pointer;
+	font-size: 1rem;
+	position: relative;
+	top: 0.1rem;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform:scale(0.8)
+}
+.percentages {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 1.1rem 3rem 0.8rem 3rem;
+}
+
+.percentages .p,
+.percentages .labels1,
+.labels2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-transform: capitalize;
+}
+
+.percentages .labels1 {
+	font-size: 1rem;
+}
+.percentages .labels2 {
+	font-size: 0.5rem;
+}
+
+.percentages .p {
+	position: relative;
+	left: 0.2rem;
+}
+
+.percentages .p .val {
+	font-size: 0.8rem;
+}
+
+.percentages .p .val:nth-child(1) {
+	color: rgb(60, 79, 170);
+}
+
+.percentages .p .val:nth-child(2) {
+	color: rgb(233, 56, 52);
+}
+
+.percentages .p .val:nth-child(3) {
+	color: rgb(247, 138, 0);
+}
+
+@media(max-width:1024px){
+	.percentages {
+		padding: 0rem 3rem 1rem 3rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.chart {
+		width: 100%;
+	}
+}
+
+

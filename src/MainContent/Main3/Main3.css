@@ -1,0 +1,104 @@
+.main3 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.latestproducts {
+	width: 20%;
+	margin: 0rem 1.1rem 0rem 0rem;
+	height: 100%;
+	/* padding-bottom: 0.5rem; */
+}
+
+.latestproducts .box1 {
+	padding: 0.5rem;
+}
+
+.latestorders {
+	width: 80%;
+	height:100%;
+}
+
+.latestorders .lbox1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.4rem;
+}
+
+.latestorders .lbox1 .lbtn {
+	background: transparent;
+	padding: 0.25rem;
+	font-size: 0.5rem;
+	border: 1px solid rgb(218, 212, 212);
+	outline: none;
+}
+
+.latestorders .lbox2 .table {
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.latestorders .lbox2 .table .items-color .line1-item:nth-child(3) span {
+	position: relative;
+	top: -0.2rem;
+}
+
+.latestorders .lbox2 .table .items-color .line1-item:nth-child(3) .arrowdown {
+	color: black;
+	font-size: 0.8rem;
+}
+
+.latestorders .lbox2 .table thead tr:nth-child(1) {
+	background-color: #fafafa;
+}
+
+.latestorders .lbox2 .table thead tr th,
+td {
+	padding: 0.5rem;
+}
+
+.latestproducts .box2 .dropbox,
+.latestproducts .box2 .medium {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+}
+
+.latestproducts .box2 .dropbox .l1 {
+	position: relative;
+	left: -1.5rem;
+}
+
+.latestproducts .box2 .medium .l2 {
+	position: relative;
+	left: -0.9rem;
+}
+
+.dropbox img,
+.medium img {
+	width: 15%;
+}
+
+.latestproducts .box2 .dropbox .dots,
+.medium .dots {
+	font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+	.main3 {
+		flex-direction: column;
+	}
+
+	.latestproducts{
+		width: 100%;
+		height:100%;
+		margin-bottom: 1.1rem;
+	}
+	.latestorders {
+		width: 100%;
+		height:100%;
+	}
+}
